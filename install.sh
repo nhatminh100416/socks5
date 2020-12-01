@@ -3,7 +3,7 @@ logoutput: stderr
 user.privileged: root
 user.unprivileged: nobody
 user.libwrap: nobody
-internal: ens4  port = 443
+internal: ens4  port = 9966
 external: ens4
 method: username none
 client pass {
