@@ -14,7 +14,8 @@ user.libwrap: nobody
 internal: $interfaces  port = $port
 external: $interfaces
 method: none none
-from: 0.0.0.0/0 to: 0.0.0.0/0
+client pass {
+  from: 0.0.0.0/0 to: 0.0.0.0/0
 }
 pass {
   from: 0.0.0.0/0 to: 0.0.0.0/0
