@@ -13,7 +13,7 @@ user.unprivileged: nobody
 user.libwrap: nobody
 internal: $interfaces  port = $port
 external: $interfaces
-method: username none
+method: none none
 from: 0.0.0.0/0 to: 0.0.0.0/0
 }
 pass {
